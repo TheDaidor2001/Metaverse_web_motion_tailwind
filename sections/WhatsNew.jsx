@@ -1,10 +1,10 @@
 'use client';
 
-import { motion } from "framer-motion";
-import { NewFeatures, TitleText, TypingText } from "../components";
-import styles from "../styles";
-import { staggerContainer, fadeIn, planetVariants } from "../utils/motion";
-import { newFeatures } from "../constants";
+import { motion } from 'framer-motion';
+import { NewFeatures, TitleText, TypingText } from '../components';
+import styles from '../styles';
+import { staggerContainer, fadeIn, planetVariants } from '../utils/motion';
+import { newFeatures } from '../constants';
 
 const WhatsNew = () => (
   <section className={`${styles.paddings} relative z-10`}>
@@ -37,7 +37,7 @@ const WhatsNew = () => (
         <img src="/whats-new.png" alt="get Started" className="w-[90%] h-[90%] object-contain" />
       </motion.div>
     </motion.div>
-</section>
+  </section>
 );
 
 export default WhatsNew;
