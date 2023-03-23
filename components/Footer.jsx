@@ -25,7 +25,7 @@ const Footer = () => (
         <div className="mb-[50px] h-[2px] bg-white opacity-10" />
         <footer className="flex items-center justify-between flex-wrap gap-4">
           <h4 className="font-extrabold text-[24px] text-white">Metaversus</h4>
-          <p className="font-normal text-[14px] text-white opacity-50">Copyright © 2021 - 2022 Metaversus. All rights reserved.</p>
+          <p className="font-normal text-[14px] text-white opacity-50">Copyright © {new Date().getFullYear()} Metaversus. All rights reserved.</p>
           <div className="flex gap-4">
             {socials.map((social) => (
               <img key={social.name} src={social.url} alt={social.name} className="w-[24px] object-contain cursor-pointer" />
